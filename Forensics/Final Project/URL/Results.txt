@@ -1,0 +1,65 @@
+
+RFE top indices:	[291 292 293 294 295 296 297 298 299 300 301 302 303 304 305 306 307 308
+ 309 310]
+
+Support Vector Machine
+Fscore
+{'C': 0.1, 'degree': 2, 'gamma': 1}
+[[504  15]
+ [ 19  50]]
+bal. acc.:0.8478679735276871
+Mutual Information
+{'C': 10, 'degree': 3, 'gamma': 0.1}
+[[488  31]
+ [ 13  56]]
+bal. acc.:0.8759319762084277
+LRP
+{'C': 0.1, 'degree': 4, 'gamma': 10}
+[[499  20]
+ [ 19  50]]
+bal. acc.:0.8430510178436793
+
+Naive Bayes
+Fscore
+[[509  10]
+ [ 26  43]]
+bal. acc.:0.8019602915305353
+Mutual Information
+[[511   8]
+ [ 30  39]]
+bal. acc.:0.7749015665577615
+LRP
+[[510   9]
+ [ 32  37]]
+bal. acc.:0.7594454217977716
+
+Random Forest
+Fscore
+[[518   1]
+ [ 26  43]]
+bal. acc.:0.8106308117617491
+Mutual Information
+[[517   2]
+ [ 24  45]]
+bal. acc.:0.824160174248136
+LRP
+[[517   2]
+ [ 25  44]]
+bal. acc.:0.8169137974365418
+
+Logistic Regression
+Fscore
+{'C': 1000}
+[[514   5]
+ [ 25  44]]
+bal. acc.:0.8140236240261371
+Mutual Information
+{'C': 10}
+[[516   3]
+ [ 29  40]]
+bal. acc.:0.7869648990533635
+LRP
+{'C': 1000}
+[[515   4]
+ [ 31  38]]
+bal. acc.:0.7715087542933736
